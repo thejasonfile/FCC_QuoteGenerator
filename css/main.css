@@ -1,5 +1,7 @@
 body {
 	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 	background-size: cover;
 	color: white;
 	text-align: center;
@@ -36,4 +38,18 @@ hr {
 .btn {
 	border: 3px solid white;
 	margin-bottom: 2em;
+	font-size: 3em;
+}
+
+@media (max-width: 1000px) {
+	#quote {
+		width: 90%;
+	}
+}
+
+@media (max-width: 600px) {
+	#title h1,
+	#title h3 {
+		font-size: 1.5em;
+	}
 }
