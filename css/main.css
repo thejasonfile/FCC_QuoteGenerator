@@ -1,0 +1,38 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	color: white;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	color: white;
+}
+
+hr {
+	border-color: black;
+}
+
+#title {
+	margin-bottom: 3em;
+}
+
+#quote {
+	background: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+	width: 40%;
+	margin: 0 auto  3em auto;
+	padding: 3em;
+	color: black;
+}
+
+#quote h3,
+#quote h4 {
+	font-weight: bold;
+	line-height: 1.2em;
+}
+
+.btn {
+	border: 3px solid white;
+}
